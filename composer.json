@@ -1,0 +1,21 @@
+{
+  "name":         "lisand7ru/hangoutsgroups",
+  "description":  "The package helps to create hangouts groups and monitor its members",
+  "type":         "library",
+  "license":      "GPL-3.0+",
+  "version": "v1.0",
+  "authors": [{
+    "name": "Lisandru",
+    "email": "i@lisand.ru",
+    "homepage": "http://lisand.ru"
+  }],
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": ">=6"
+  },
+  "autoload": {
+    "psr-4": {
+      "HangoutsGroups\\": "src/"
+    }
+  }
+}
